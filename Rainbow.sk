@@ -1,0 +1,188 @@
+#! Dont you dare to change something here !!!
+
+options:
+	a: &4&lR&a&la&b&li&e&ln&6&lb&3&lo&2&lw &8➟
+  b: &7Yeet, u cant use dis boi
+
+command /rainbow [<text>]:
+	permission: urservername.rainbowarmor
+	permission message: {@b}
+	trigger:
+		if {rainbow.%player%} is true:
+			set {rainbow.%player%} to false
+			delete helmet of player
+			delete chestplate of player
+			delete leggings of player
+			delete boots of player
+			send "{@a} &cDisabled"
+			stop trigger
+		set {rainbow.%player%} to true
+		send "{@a} &aEnabled !"
+		equip player with all leather armour
+		while {rainbow.%player%} is true:
+			{rainbow.%player%} is true
+			dye player's helmet (201, 31, 22)
+			dye player's chestplate (201, 31, 22)
+			dye player's leggings (201, 31, 22)
+			dye player's boots (201, 31, 22)
+			wait 1 ticks
+			dye player's helmet (204, 54, 21)
+			dye player's chestplate (204, 54, 21)
+			dye player's leggings (204, 54, 21)
+			dye player's boots (204, 54, 21)
+			wait 1 ticks
+			dye player's helmet (217, 88, 14)
+			dye player's chestplate (217, 88, 14)
+			dye player's leggings (217, 88, 14)
+			dye player's boots (217, 88, 14)
+			wait 1 ticks
+			dye player's helmet (221, 104, 11)
+			dye player's chestplate (221, 104, 11)
+			dye player's leggings (221, 104, 11)
+			dye player's boots (221, 104, 11)
+			wait 1 ticks
+			dye player's helmet (230, 134, 1)
+			dye player's chestplate (230, 134, 1)
+			dye player's leggings (230, 134, 1)
+			dye player's boots (230, 134, 1)
+			wait 1 ticks
+			dye player's helmet (238, 173, 0)
+			dye player's chestplate (238, 173, 0)
+			dye player's leggings (238, 173, 0)
+			dye player's boots (238, 173, 0)
+			wait 1 ticks
+			dye player's helmet (252, 207, 3)
+			dye player's chestplate (252, 207, 3)
+			dye player's leggings (252, 207, 3)
+			dye player's boots (252, 207, 3)
+			wait 1 ticks
+			dye player's helmet (237, 228, 0)
+			dye player's chestplate (237, 228, 0)
+			dye player's leggings (237, 228, 0)
+			dye player's boots (237, 228, 0)
+			wait 1 ticks
+			dye player's helmet (206, 213, 0)
+			dye player's chestplate (206, 213, 0)
+			dye player's leggings (206, 213, 0)
+			dye player's boots (206, 213, 0)
+			wait 1 ticks
+			dye player's helmet (176, 197, 15)
+			dye player's chestplate (176, 197, 15)
+			dye player's leggings (176, 197, 15)
+			dye player's boots (176, 197, 15)
+			wait 1 ticks
+			dye player's helmet (143, 187, 12)
+			dye player's chestplate (143, 187, 12)
+			dye player's leggings (143, 187, 12)
+			dye player's boots (143, 187, 12)
+			wait 1 ticks
+			dye player's helmet (119, 179, 18)
+			dye player's chestplate (119, 179, 18)
+			dye player's leggings (119, 179, 18)
+			dye player's boots (119, 179, 18)
+			wait 1 ticks
+			dye player's helmet (105, 176, 17)
+			dye player's chestplate (105, 176, 17)
+			dye player's leggings (105, 176, 17)
+			dye player's boots (105, 176, 17)
+			wait 1 ticks
+			dye player's helmet (71, 164, 30)
+			dye player's chestplate (71, 164, 30)
+			dye player's leggings (71, 164, 30)
+			dye player's boots (71, 164, 30)
+			wait 1 ticks
+			dye player's helmet (45, 156, 31)
+			dye player's chestplate (45, 156, 31)
+			dye player's leggings (45, 156, 31)
+			dye player's boots (45, 156, 31)
+			wait 1 ticks
+			dye player's helmet (24, 148, 37)
+			dye player's chestplate (24, 148, 37)
+			dye player's leggings (24, 148, 37)
+			dye player's boots (24, 148, 37)
+			wait 1 ticks
+			dye player's helmet (8, 131, 67)
+			dye player's chestplate (8, 131, 67)
+			dye player's leggings (8, 131, 67)
+			dye player's boots (8, 131, 67)
+			wait 1 ticks
+			dye player's helmet (14, 140, 98)
+			dye player's chestplate (14, 140, 98)
+			dye player's leggings (14, 140, 98)
+			dye player's boots (14, 140, 98)
+			wait 1 ticks
+			dye player's helmet (5, 148, 157)
+			dye player's chestplate (5, 148, 157)
+			dye player's leggings (5, 148, 157)
+			dye player's boots (5, 148, 157)
+			wait 1 ticks
+			dye player's helmet (8, 148, 182)
+			dye player's chestplate (8, 148, 182)
+			dye player's leggings (8, 148, 182)
+			dye player's boots (8, 148, 182)
+			wait 1 ticks
+			dye player's helmet (31, 154, 215)
+			dye player's chestplate (31, 154, 215)
+			dye player's leggings (31, 154, 215)
+			dye player's boots (31, 154, 215)
+			wait 1 ticks
+			dye player's helmet (13, 132, 196)
+			dye player's chestplate (13, 132, 196)
+			dye player's leggings (13, 132, 196)
+			dye player's boots (13, 132, 196)
+			wait 1 ticks
+			dye player's helmet (3, 99, 163)
+			dye player's chestplate (3, 99, 163)
+			dye player's leggings (3, 99, 163)
+			dye player's boots (3, 99, 163)
+			wait 1 ticks
+			dye player's helmet (9, 74, 145)
+			dye player's chestplate (9, 74, 145)
+			dye player's leggings (9, 74, 145)
+			dye player's boots (9, 74, 145)
+			wait 1 ticks
+			dye player's helmet (17, 50, 121)
+			dye player's chestplate (17, 50, 121)
+			dye player's leggings (17, 50, 121)
+			dye player's boots (17, 50, 121)
+			wait 1 ticks
+			dye player's helmet (24, 35, 105)
+			dye player's chestplate (24, 35, 105)
+			dye player's leggings (24, 35, 105)
+			dye player's boots (24, 35, 105)
+			wait 1 ticks
+			dye player's helmet (29, 18, 89)
+			dye player's chestplate (29, 18, 89)
+			dye player's leggings (29, 18, 89)
+			dye player's boots (29, 18, 89)
+			wait 1 ticks
+			dye player's helmet (49, 12, 90)
+			dye player's chestplate (49, 12, 90)
+			dye player's leggings (49, 12, 90)
+			dye player's boots (49, 12, 90)
+			wait 1 ticks
+			dye player's helmet (91, 11, 90)
+			dye player's chestplate (91, 11, 90)
+			dye player's leggings (91, 11, 90)
+			dye player's boots (91, 11, 90)
+			wait 1 ticks
+			dye player's helmet (130, 0, 96)
+			dye player's chestplate (130, 0, 96)
+			dye player's leggings (130, 0, 96)
+			dye player's boots (130, 0, 96)
+			wait 1 ticks
+			dye player's helmet (174, 9, 100)
+			dye player's chestplate (174, 9, 100)
+			dye player's leggings (174, 9, 100)
+			dye player's boots (174, 9, 100)
+			wait 1 ticks
+			dye player's helmet (197, 0, 89)
+			dye player's chestplate (197, 0, 89)
+			dye player's leggings (197, 0, 89)
+			dye player's boots (197, 0, 89)
+			wait 1 ticks
+			dye player's helmet (197, 10, 42)
+			dye player's chestplate (197, 10, 42)
+			dye player's leggings (197, 10, 42)
+			dye player's boots (197, 10, 42)
+			wait 1 ticks
